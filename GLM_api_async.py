@@ -16,3 +16,5 @@ response = zhipuai.model_api.async_invoke(
 response = zhipuai.model_api.query_async_invoke_result("70217042412551178252651738010520012")
 
 print(response)
+
+
