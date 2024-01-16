@@ -1,0 +1,3 @@
+[submodule "Baidu/bce-qianfan-sdk"]
+	path = Baidu/bce-qianfan-sdk
+	url = https://github.com/baidubce/bce-qianfan-sdk.git
