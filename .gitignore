@@ -3,5 +3,7 @@
 .git
 .ipynb_checkpoints
 __pycache__
+*.jpg
+*.png
 Baidu/*.jpg
 Baidu/*.png
