@@ -5,5 +5,4 @@
 __pycache__
 *.jpg
 *.png
-Baidu/*.jpg
-Baidu/*.png
+Baidu/images
