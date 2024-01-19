@@ -28,6 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install zhipuai chainlit
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint with chainlit
+    - name: Check python version
       run: |
-        chainlit run integrate_chainlit.py -w
+        python --version
