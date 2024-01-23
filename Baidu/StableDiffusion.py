@@ -8,6 +8,7 @@ import base64
 import cv2
 import numpy as np
 
+
 dotenv_path = join(dirname(__file__), '.env')
 load_dotenv(dotenv_path)
 
@@ -18,7 +19,7 @@ def get_access_token():
     """
         
     url = "https://aip.baidubce.com/oauth/2.0/token?grant_type=client_credentials&client_id={API_Key}&client_secret={Secret_Key}"
-    url = url.format(API_Key=os.getenv('API_Key'), Secret_Key=os.getenv('Secret_Key'))
+    url = url.format(API_Key=os.getenv('QIANFAN_AK'), Secret_Key=os.getenv('QIANFAN_SK'))
     
     payload = json.dumps("")
     headers = {
